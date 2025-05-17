@@ -66,7 +66,8 @@ Shader "Chad/Chad Test"
             {
                 float4 texColor = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, IN.uv);
                 float4 finalColor = lerp(texColor, IN.color, IN.tangentMask);
-                return finalColor;
+                float4 lightmap = SAMPLE_TEXTURE2D(_LightMap, sampler_LightMap, IN.uv2);
+                return finalColor * lightmap;
             }
             ENDHLSL
         }
