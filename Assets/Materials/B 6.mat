@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Chad
-  m_Shader: {fileID: 4800000, guid: 53598b0dc6334024cb230fb3b45820d9, type: 3}
+  m_Name: B 6
+  m_Shader: {fileID: 4800000, guid: 341cd90acbc60b646969571ef1717d05, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,6 +23,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -55,15 +63,11 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _FalloffTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _LightMap:
-        m_Texture: {fileID: 2800000, guid: dffef66376be4fa480fb02b19edbe903, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
+        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex2D:
         m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -79,40 +83,59 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ShadowTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - PixelSnap: 0
+    - _BaseY: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DistortionAmount: 0.1
+    - _DistortionAmount: 0.498
     - _DstBlend: 0
-    - _FadeAmount: 0
+    - _EnableExternalAlpha: 0
+    - _Fade: 1
+    - _FadeAmount: 0.782
     - _FresnelIntensity: 0.885
-    - _FresnelPower: 6.11
+    - _FresnelPower: 5.66
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Height: 1
+    - _Horizontal: 1
     - _Metallic: 0
     - _Mode: 0
+    - _NoiseBias: 0.52
+    - _NoiseContrast: 0.63
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimPower: 3
+    - _RimPower: 2.44
     - _SmoothnessTextureChannel: 0
+    - _Specular: 4
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Transition: 0.099
     - _UVSec: 0
+    - _XBias: 0.25
+    - _XScale: 1
     - _XScrollSpeed: 0.5
     - _YScrollSpeed: 1
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0.1462264, b: 0.1462264, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _FresnelColor: {r: 0.5, g: 0.8, b: 1, a: 1}
+    - _NoiseScale: {r: 5.93, g: 1, b: 1, a: 1}
+    - _NoiseSpeed: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 0.10849059, b: 0.10849059, a: 1}
     - _ScrollSpeed: {r: 0.2, g: 0, b: 0, a: 0}
     - _SelectedColor: {r: 1, g: 0.7461024, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 0, b: 0, a: 1}
+    - _WaveAmp: {r: 1, g: 1, b: 1, a: 0}
+    - _WavePeriod: {r: 1, g: 1, b: 1, a: 0}
+    - _WaveScale: {r: 1, g: 1, b: 1, a: 0}
+    - _Weights0: {r: 0.62, g: 0.32, b: 0.13, a: 0}
+    - _Weights1: {r: 0.52, g: 0, b: 0, a: 0.06}
+    - _Weights2: {r: 0.95, g: 0, b: 0, a: 0.15}
+    - _Weights3: {r: 1.08, g: 0, b: 0.35, a: 0.46}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

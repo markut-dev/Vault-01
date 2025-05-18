@@ -1,4 +1,4 @@
-Shader "Marvel/FX/Flag URP"
+Shader "Marvel/FX/Flag"
 {
     Properties
     {
